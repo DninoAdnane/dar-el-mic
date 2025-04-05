@@ -1,0 +1,97 @@
+.who-style {
+  width: 700px; 
+  height: 80px; 
+  border-radius: 30px;
+  margin-bottom: 30px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  border: 2px solid black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.who-style:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.container-content {
+  display: flex;
+  padding: 30px 10px;
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+  margin-bottom: 20px;
+
+  min-height: 300px;
+  /* border: 1px solid black */
+}
+
+@media only screen and (max-width: 640px) {
+  .container-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.content-container-img {
+  border-radius: 10px;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+.content-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.text-content {
+  position: relative;
+  transform: translateX(0); /* Initially displayed */
+  opacity: 1; /* Fully visible */
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+.container-content:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.container-content:hover .text-content {
+  transform: translateX(10px);
+  opacity: 1;
+}
+.container-content:hover .content-container-img {
+  transform: scale(1.01);
+  opacity: 1;
+}
+
+.morepackage-container {
+  padding: 30px 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e4e2e2;
+  min-height: 200px;
+  align-items: stretch;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  flex: 1;
+}
+.morepackage-container:hover {
+  transform: scale(1.02);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+}
+.packges-box .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.packges-box .col-12, .col-sm-6, .col-lg-4 {
+  display: flex; /* Ensures columns stretch */
+}
+.packges-box h2,
+.packges-box p,
+.packges-box h4 {
+  margin-bottom: 5px;
+}
