@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "/dar-el-mic/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
