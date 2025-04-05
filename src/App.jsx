@@ -84,7 +84,7 @@ class App extends React.Component {
                     render={(props) => <ViewUnauthorized {...props} />}
                   />
                   <Route
-                    path="/"
+                    path="/dar-el-mic"
                     exact
                     render={(props) => <ViewHome {...props} />}
                   />

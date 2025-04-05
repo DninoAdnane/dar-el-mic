@@ -26,7 +26,7 @@ const HomeFooter = () => {
 
         {/* Logo at the top */}
         <div className="flex items-center gap-2 mb-8">
-          <img src="/assets/logos/dar-mic-logo.png" alt="Dar El Mic" className="h-20" />
+          <img src="/dar-el-mic/assets/logos/dar-mic-logo.png" alt="Dar El Mic" className="h-20" />
         </div>
 
         {/* Flex row: À propos, Navigation, Map */}

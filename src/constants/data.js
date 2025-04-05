@@ -14,41 +14,42 @@ export const content = [
   {
     title: "Podcast Audio & Vidéo",
     text: "Enregistrez votre podcast dans un environnement professionnel avec un son et une image de haute qualité. Que ce soit pour un format solo, en duo ou en groupe, nous vous accompagnons pour un rendu immersif et engageant.",
-    picture: "/assets/img/landing-page/podcast-audio-video.jpg",
+    picture: "/dar-el-mic/assets/img/landing-page/podcast-audio-video.jpg",
   },
   {
     title: "Contenu pour les réseaux sociaux",
     text: "Boostez votre visibilité avec des vidéos courtes et impactantes: reels, shorts, teasers et extraits de vos enregistrements, optimisés pour TikTok, Instagram, Facebook et YouTube.",
-    picture: "/assets/img/landing-page/Contenu_pour_les_reseaux_sociaux.jpg",
+    picture:
+      "/dar-el-mic/assets/img/landing-page/Contenu_pour_les_reseaux_sociaux.jpg",
   },
   {
     title: "Interviews & Talk Shows",
     text: "Mettez en avant vos invités et vos sujets avec une production professionnelle. Nous fournissons un cadre élégant, un éclairage optimisé et une captation sonore de qualité pour des interviews captivantes.",
-    picture: "/assets/img/landing-page/Interveiw_&_Talk_shows.jpg",
+    picture: "/dar-el-mic/assets/img/landing-page/Interveiw_&_Talk_shows.jpg",
   },
   {
     title: "Naration & Voice-over",
     text: "Besoin d'une voix professionnelle pour un documentaire, une publicité ou un livre audio ? Notre studio vous offre un son clair et maîtrisé, adapté à tous vos projets de narration.",
-    picture: "/assets/img/landing-page/Narration_&_Voice_over.jpg",
+    picture: "/dar-el-mic/assets/img/landing-page/Narration_&_Voice_over.jpg",
   },
   {
     title: "Formations & Webinaires",
     text: "Créez des contenus éducatifs et des webinaires avec une qualité audiovisuelle irréprochable. Que ce soit pour une formation en ligne, une conférence ou un tutoriel, nous vous aidons à produire des vidéos dynamiques et percutantes.",
-    picture: "/assets/img/landing-page/Formations_&_Webinaires.jpg",
+    picture: "/dar-el-mic/assets/img/landing-page/Formations_&_Webinaires.jpg",
   },
 ];
 
 export const decorations = [
   {
     title: "Le Salon du Mic",
-    picture: "/assets/img/landing-page/1-Le_Salon_du_Mic.jpg",
+    picture: "/dar-el-mic/assets/img/landing-page/1-Le_Salon_du_Mic.jpg",
     text: "Un espace chaleureux et immersif, pensé pour créer un climat intime et détendu. Une petite table élégante qui complète un cadre où les fauteuils confortables invitent à une conversation fluide et naturelle.",
     idealFor:
       "podcasts narratifs, discussions lifestyle, interviews, partages d'expériences, témoignages inspirants et échanges informels.",
   },
   {
     title: "La Table du Mic",
-    picture: "/assets/img/landing-page/2- La_Table_du_Mic.jpg",
+    picture: "/dar-el-mic/assets/img/landing-page/2- La_Table_du_Mic.jpg",
     text: "Un studio conçu pour des échanges sérieux et dynamiques, avec une table haute et une disposition qui favorise une posture droite et un contact visuel optimal entre les participants.",
     idealFor:
       "interviews formelles, débats, podcasts thématiques, conférences et discussions professionnelles.",
@@ -57,23 +58,24 @@ export const decorations = [
 
 export const materials = [
   {
-    picture: "/assets/img/landing-page/materials/pngegg.png",
+    picture: "/dar-el-mic/assets/img/landing-page/materials/pngegg.png",
     text: "Caméra: Sony Alpha 7 ||| (Qualité vidéo 4K)",
   },
   {
-    picture: "/assets/img/landing-page/materials/Pod.png",
+    picture: "/dar-el-mic/assets/img/landing-page/materials/Pod.png",
     text: "Microphones: RØDE PodMic (Son professionnel)",
   },
   {
-    picture: "/assets/img/landing-page/materials/rode-rodecaster.png",
+    picture:
+      "/dar-el-mic/assets/img/landing-page/materials/rode-rodecaster.png",
     text: "Interface audio: RØDECaster Pro II (Mixage, effets sonores et enregistrement multipiste)",
   },
   {
-    picture: "/assets/img/landing-page/materials/pngtree-tripod.png",
+    picture: "/dar-el-mic/assets/img/landing-page/materials/pngtree-tripod.png",
     text: "Éclairage: Softbox LED et panneaux lumineux réglables (Éclairage studio optimal)",
   },
   {
-    picture: "/assets/img/landing-page/materials/Bras-de-mic.png",
+    picture: "/dar-el-mic/assets/img/landing-page/materials/Bras-de-mic.png",
     text: "Accessoires: Bras de micro articulés",
   },
 ];
