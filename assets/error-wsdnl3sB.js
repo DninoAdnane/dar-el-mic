@@ -1,0 +1,1 @@
+import{r as s,j as o}from"./index-P2bqZkO2.js";const e=()=>(s.useEffect(()=>(document.body.classList.add("background"),document.body.classList.add("no-footer"),()=>{document.body.classList.remove("background"),document.body.classList.remove("no-footer")}),[]),o.jsxs(o.Fragment,{children:[o.jsx("div",{className:"fixed-background"}),o.jsx("main",{})]}));export{e as default};
