@@ -1,6 +1,6 @@
 export const whoElements = [
   {
-    text: "Un studio insonotisé et équipé des meilleurs matériels.",
+    text: "Un studio d'enregistrement insonotisé et équipé des meilleurs matériels.",
   },
   {
     text: "Un accompagnement technique créatif.",
@@ -59,7 +59,7 @@ export const decorations = [
 export const materials = [
   {
     picture: "/dar-el-mic/assets/img/landing-page/materials/pngegg.png",
-    text: "Caméra: Sony Alpha 7 ||| (Qualité vidéo 4K)",
+    text: "Caméra: Sony Alpha (Qualité vidéo 4K)",
   },
   {
     picture: "/dar-el-mic/assets/img/landing-page/materials/Pod.png",

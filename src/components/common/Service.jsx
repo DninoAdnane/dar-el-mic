@@ -17,7 +17,7 @@ const Service = ({service: {public_id, title, detail, price, priceUnit, minQuant
   }, [quantity]);
 
   return (
-      <div className={`px-[10px] py-[30px] rounded-[20px] mb-[20px] flex flex-col justify-between bg-[#e4e2e2] min-h-[200px] sm:min-h-[300px] items-stretch
+      <div className={`px-[10px] py-[30px] rounded-[20px] mb-[20px] flex flex-col justify-between bg-[#e5e1e64d] min-h-[200px] sm:min-h-[300px] items-stretch
                     transition-transform duration-300 ease-in-out shadow-md cursor-default flex-1
                     ${isClicked ? "border-4 border-sky-400" : "hover:scale-102 hover:shadow-lg"}`}>
         <h2 className="text-xl !font-semibold">{title}</h2>

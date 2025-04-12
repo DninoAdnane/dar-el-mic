@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Alexandria', sans-serif;
   font-size: 0.8rem;
   font-weight: 400;
   color: $primary-color;
@@ -215,6 +215,7 @@ hr {
   height: 35px;
   background: url($logo-path) no-repeat;
   background-position: center center;
+  background-size: cover;
   display: inline-block;
   margin-bottom: 60px;
 }
@@ -287,6 +288,7 @@ p {
   font-size: 0.85rem;
   line-height: 1.3rem;
   font-family: 'Nunito', sans-serif;
+  color: $text-color;
 }
 
 .text-large {

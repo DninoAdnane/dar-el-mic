@@ -65,14 +65,13 @@ button {
 }
 
 .btn-primary {
-  background-color: $theme-color-1;
-  border-color: $theme-color-1;
+  background: $button-gradient;
+  border-color: $title-color;
   color: $button-text-color;
 
   &:hover {
-    color: $button-text-color;
-    background-color: darken($theme-color-1, 8%);
-    border-color: darken($theme-color-1, 8%);
+    opacity: 0.8;
+    border-color: $title-color;
   }
 }
 

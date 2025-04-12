@@ -34,6 +34,8 @@
       height: 30px;
       background: url($lp-logo-path-pinned);
       background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
   }
 
@@ -62,7 +64,7 @@
   p {
     font-size: 1rem;
     line-height: 1.6rem;
-    color: $secondary-color;
+    color: $text-color;
 
     @include respond-below(sm) {
       font-size: 0.9rem;
@@ -72,7 +74,7 @@
 
   h1 {
     font-size: 3rem;
-    color: $theme-color-1;
+    color: $title-color;
     margin-bottom: 2rem;
 
     @include respond-below(sm) {
@@ -82,7 +84,7 @@
 
   h2 {
     font-size: 1.8rem;
-    color: $theme-color-1;
+    color: $title-color;
     margin-bottom: 2rem;
 
     @include respond-below(md) {
@@ -97,7 +99,7 @@
   h3 {
     font-size: 1.4rem;
     line-height: 1.4;
-    color: $theme-color-1;
+    color: $title-color;
 
     @include respond-below(sm) {
       font-size: 1.1rem;
@@ -119,8 +121,8 @@
 
     &:hover,
     &:active {
-      border: 1px solid darken($theme-color-1, 10%);
-      background: darken($theme-color-1, 10%);
+      border: 1px solid darken($title-color, 10%);
+      background: $title-color;
     }
   }
 
@@ -177,16 +179,20 @@
 
       .white {
         display: inline-block;
-        width: 120px;
-        height: 40px;
+        width: 210px;
+        height: 70px;
         background: url($lp-logo-path);
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
       }
 
       .dark {
-        width: 120px;
-        height: 40px;
+        width: 210px;
+        height: 70px;
         background: url($lp-logo-path-pinned);
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
         display: none;
       }
@@ -330,8 +336,8 @@
 
         &:hover,
         &:active {
-          border: 1px solid $theme-color-1;
-          background: $theme-color-1;
+          border: 1px solid darken($title-color, 10%);
+          background: $title-color;
           color: $button-text-color;
         }
       }
@@ -349,9 +355,9 @@
   }
 
   .section {
-    margin-bottom: 150px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     @include respond-below(md) {
       margin-bottom: 100px;
@@ -359,7 +365,7 @@
     }
 
     &.home {
-      background-image: url("/assets/img/landing-page/Main_image.jpg");
+      background-image: url("/assets/img/landing-page/Main_Web_pic.jpg");
       background-repeat: no-repeat;
       background-position-y: 0;
       background-color: transparent;

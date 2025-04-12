@@ -287,10 +287,16 @@ const Home = () => {
           </nav>
         </Headroom>
         <div className="content-container" id="home">
-          <div className="section home" ref={refSectionHome}>
+          <div className="section home flex justify-center items-center" ref={refSectionHome}>
             <div className="container">
-              <div className="row home-row" ref={refRowHome}>
-                
+              <div className="row home-row flex flex-col items-center" ref={refRowHome}>
+                <h1 className="text-white mb-1">Studio Podcast Oran</h1>
+                <h2 className="text-white">L'espace dédié aux créateurs de podcasts et de contenu en Algérie.</h2>
+                <li className="nav-item pl-4">
+                  <a href={reservationRoot} target="_blank" className="btn btn-outline-semi-light btn-lg !px-20 !py-6 !text-2xl">
+                    Réserver
+                  </a>
+                </li>
               </div>
 
               <div className="row">
@@ -313,7 +319,7 @@ const Home = () => {
                 </div>
               </div>:
               <div className="flex justify-center items-center">
-                <div className="row flex flex-col justify-center items-center w-full lg:w-[700px]">
+                <div className="row flex flex-col justify-center items-center w-full lg:w-[1200px]">
                   {whoElements.map((who, i) => (
                     <div key={`who_${i}`} className="w-full min-h-[80px] py-8 px-8 lg:px-0 rounded-[30px] mb-[30px] flex justify-center items-center border-2 border-black 
                                           transition-transform duration-300 ease-in-out shadow-[2px_2px_10px_rgba(0,0,0,0.2)] 
@@ -361,7 +367,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-12 offset-0 col-lg-11">
-                <div className="row" style={{display: "flex"}} class="container-content">
+                <div className="row container-content" style={{display: "flex"}}>
                   <div className="col-lg-4 content-container-img">
                       <img src={decorations[0].picture} 
                           alt={decorations[0].title} className="content-img"/>
@@ -373,7 +379,7 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="row" style={{display: "flex"}} class="container-content">
+                <div className="row container-content" style={{display: "flex"}}>
                   <div className="col-lg-8 text-content">
                       <h3 style={{fontWeight: "700"}}>{decorations[1].title}</h3>
                       <p>{decorations[1].text}</p>
