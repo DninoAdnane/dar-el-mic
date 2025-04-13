@@ -83,7 +83,7 @@ export const materials = [
 export const packages = [
   {
     title: "Forfait Standard",
-    price: 5000,
+    price: "5,000",
     detail: "Location du studio",
     elements: [
       "1 à 2 caméras Sony.",
@@ -121,7 +121,7 @@ export const packages = [
     title: "Podcast Premium",
     detail:
       "Enregistrement avec services de post-production pour un rendu professionne.",
-    price: 28000,
+    price: "28,000",
     detail:
       "Enregistrement avec services de post-production pour un rendu professionnel",
     elements: [
@@ -138,8 +138,8 @@ export const packages = [
     title: "Podcast Série",
     subTitle: "5 épisodes (20% réduction)",
     priceDetail: "(soit 28 000 DZD d'économie)",
-    price: 112000,
-    oldPrice: 140000,
+    price: "112,000",
+    oldPrice: "140,000",
     elements: [
       "Tous les éléments du Forfait Premium.",
       "5 épisodes enregistrés et montés.",
@@ -151,8 +151,8 @@ export const packages = [
     title: "Podcast Série",
     subTitle: "10 épisodes (30% réduction)",
     priceDetail: "(soit 84 000 DZD d'économie)",
-    price: 196000,
-    oldPrice: 280000,
+    price: "196,000",
+    oldPrice: "280,000",
     elements: [
       "Tous les éléments du Forfait Premium.",
       "10 épisodes enregistrés et montés.",

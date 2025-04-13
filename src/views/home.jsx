@@ -193,8 +193,8 @@ const Home = () => {
 
       <div className="main-container">
         <Headroom className="landing-page-nav">
-          <nav>
-            <div className="container d-flex align-items-center justify-content-between">
+          <nav className="!flex !justify-center !itemcs-center">
+            <div className="ml-4">
               <a
                 className="navbar-logo pull-left c-pointer"
                 href="#scroll"
@@ -203,6 +203,8 @@ const Home = () => {
                 <span className="white" />
                 <span className="dark" />
               </a>
+            </div>
+            <div className="container d-flex align-items-center justify-content-end">
               <ul className="navbar-nav d-none d-lg-flex flex-row">
                 <li className="nav-item">
                   <a
@@ -275,7 +277,7 @@ const Home = () => {
               </ul>
               {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions */}
               <span
-                className="mobile-menu-button"
+                className="mobile-menu-button mr-8"
                 onClick={(event) => {
                   setShowMobileMenu(!showMobileMenu);
                   event.stopPropagation();
@@ -289,11 +291,11 @@ const Home = () => {
         <div className="content-container" id="home">
           <div className="section home flex justify-center items-center" ref={refSectionHome}>
             <div className="container">
-              <div className="row home-row flex flex-col items-center" ref={refRowHome}>
+              <div className="row home-row flex flex-col items-center mt-52 xl:mt-42 text-center" ref={refRowHome}>
                 <h1 className="text-white mb-1">Studio Podcast Oran</h1>
                 <h2 className="text-white">L'espace dédié aux créateurs de podcasts et de contenu en Algérie.</h2>
                 <li className="nav-item pl-4">
-                  <a href={reservationRoot} target="_blank" className="btn btn-outline-semi-light btn-lg !px-20 !py-6 !text-2xl">
+                  <a href={reservationRoot} target="_blank" className="btn btn-outline-semi-light btn-lg !px-20 !py-4 !text-2xl">
                     Réserver
                   </a>
                 </li>
@@ -319,7 +321,7 @@ const Home = () => {
                 </div>
               </div>:
               <div className="flex justify-center items-center">
-                <div className="row flex flex-col justify-center items-center w-full lg:w-[1200px]">
+                <div className="row flex flex-col justify-center items-center w-full lg:w-[1100px]">
                   {whoElements.map((who, i) => (
                     <div key={`who_${i}`} className="w-full min-h-[80px] py-8 px-8 lg:px-0 rounded-[30px] mb-[30px] flex justify-center items-center border-2 border-black 
                                           transition-transform duration-300 ease-in-out shadow-[2px_2px_10px_rgba(0,0,0,0.2)] 
@@ -342,13 +344,13 @@ const Home = () => {
               </div>
 
               <div className="row flex flex-col">
-                <div className="col-12 offset-0 col-lg-11">
+                <div className="col-12 col-lg-11">
                   {content.map((cnt, idx) => (
-                    <div className="container-content">
-                      <div className="col-lg-4 content-container-img" >
+                    <div className="container-content row">
+                      <div className="col-md-4 content-container-img" >
                         <img src={cnt.picture} alt={cnt.title} className="content-img" />
                       </div>
-                      <div className="col-lg-8 text-content">
+                      <div className="col-md-8 text-content self-start mt-3">
                         <h3>{cnt.title}</h3>
                         <p>{cnt.text}</p>
                       </div>

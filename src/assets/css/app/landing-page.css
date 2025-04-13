@@ -23,14 +23,20 @@
   transition: background 0.3s ease-in-out;
   margin-bottom: 20px;
 
-  min-height: 300px;
+  /* min-height: 300px; */
   /* border: 1px solid black */
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 767px) {
   .container-content {
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container-content {
+    margin-bottom: 40px;
   }
 }
 
